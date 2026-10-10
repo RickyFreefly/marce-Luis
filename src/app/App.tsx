@@ -247,6 +247,8 @@ export default function App() {
         texts={{
           topLabel: " ",
           invitationLine: "Te invitan a ser parte de la celebración de su matrimonio",
+          marriageLine:
+            "Sostenidos por Su mirada eterna, consagrados a Su alabanza eterna.",
           rootTitle: "Eres parte de los nuestros",
           rootSubtitle: "Gracias por estar aquí hoy.",
           phonePlaceholder: "🇨🇴 +57 Número de teléfono",
