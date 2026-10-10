@@ -28,14 +28,14 @@ type EventsSectionProps = {
 const defaultTexts: EventsSectionTexts = {
   sectionTitle: "La celebración",
   venueLabel: "Lugar del evento",
-  venueName: "Lugar por confirmar",
-  venueAddress: "Dirección por confirmar",
+  venueName: "Eco Familiar Campestre",
+  venueAddress: "Calle 200 #67-65, Bogotá",
   venueDescription:
     "Compartiremos en un mismo lugar cada momento de esta celebración.",
   mapButton: "Ver ubicación",
   schedule: [
     {
-      title: "Bienvenida",
+      title: "Ingreso",
       label: "Inicio del día",
       time: "3:00 PM",
       description: "Te recibiremos para comenzar juntos este día tan especial.",
@@ -50,9 +50,9 @@ const defaultTexts: EventsSectionTexts = {
       icon: Church,
     },
     {
-      title: "Celebración",
-      label: "Recepción",
-      time: "6:00 PM",
+      title: "Recepción",
+      label: "Celebración",
+      time: "5:00 PM",
       description: "Cena • DJ • Banda en vivo. Una noche para no olvidar.",
       icon: PartyPopper,
     },

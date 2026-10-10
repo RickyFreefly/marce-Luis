@@ -5,8 +5,8 @@ import galleryImage3 from "../assets/Marce&Luis3.jpg";
 
 export const weddingData = {
   couple: "Marce & Luis",
-  dateText: "Fecha por confirmar",
-  weddingDate: new Date("2027-01-01T16:00:00"),
+  dateText: "21 de noviembre de 2026",
+  weddingDate: new Date("2026-11-21T15:00:00"),
   quote: "El amor está compuesto por un alma que habita en dos cuerpos",
   quoteAuthor: "Aristóteles",
   hashtag: "#MarceYLuis",

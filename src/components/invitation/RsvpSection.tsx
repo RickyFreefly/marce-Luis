@@ -87,19 +87,19 @@ function formatDateUTC(date: string) {
 }
 
 function buildGoogleCalendarUrl() {
-  const start = formatDateUTC("2027-01-01T14:00:00-05:00");
-  const end = formatDateUTC("2027-01-01T23:00:00-05:00");
+  const start = formatDateUTC("2026-11-21T15:00:00-05:00");
+  const end = formatDateUTC("2026-11-21T23:00:00-05:00");
 
   return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
     "Boda Marce & Luis"
   )}&dates=${start}/${end}&details=${encodeURIComponent(
     "Ceremonia y recepción"
-  )}&location=${encodeURIComponent("Lugar por confirmar")}`;
+  )}&location=${encodeURIComponent("Eco Familiar Campestre, Calle 200 #67-65, Bogotá")}`;
 }
 
 function downloadICS() {
-  const start = formatDateUTC("2027-01-01T14:00:00-05:00");
-  const end = formatDateUTC("2027-01-01T23:00:00-05:00");
+  const start = formatDateUTC("2026-11-21T15:00:00-05:00");
+  const end = formatDateUTC("2026-11-21T23:00:00-05:00");
   const now = formatDateUTC(new Date().toISOString());
 
   const content = `BEGIN:VCALENDAR
@@ -112,7 +112,7 @@ DTSTART:${start}
 DTEND:${end}
 SUMMARY:Boda Marce & Luis
 DESCRIPTION:Ceremonia y recepción
-LOCATION:Lugar por confirmar
+LOCATION:Eco Familiar Campestre, Calle 200 #67-65, Bogotá
 END:VEVENT
 END:VCALENDAR`;
 
