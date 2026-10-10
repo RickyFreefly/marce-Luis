@@ -40,8 +40,8 @@ type RsvpSectionProps = {
   texts?: RsvpTexts;
 };
 
-// TODO: reemplazar con el endpoint (Google Apps Script) propio de Marce & Luis antes de publicar.
-const RSVP_ENDPOINT = "";
+const RSVP_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbwFD8RGJr5llLJsdRxcboS03Rif5B_Tws9vP_1e8hijx6p5mSI4SwLRSpWTfvowf2-nzA/exec";
 
 const defaultTexts: RsvpTexts = {
   sectionTitle: "Confirmación de asistencia",
