@@ -5,6 +5,7 @@ type HeroSectionTexts = {
   topLabel: string;
   invitationLine: string;
   marriageLine?: string;
+  verseReference?: string;
   rootTitle: string;
   rootSubtitle: string;
   phonePlaceholder: string;
@@ -74,14 +75,14 @@ export function HeroSection({
         transition={{ duration: 1 }}
         className={`lg:w-1/2 ${
           isRootAccess
-            ? "h-[34vh] sm:h-[38vh] md:h-[42vh] lg:h-screen"
-            : "h-[30vh] sm:h-[34vh] md:h-[38vh] lg:h-screen"
+            ? "h-[52vh] sm:h-[56vh] md:h-[60vh] lg:h-screen"
+            : "h-[48vh] sm:h-[52vh] md:h-[56vh] lg:h-screen"
         }`}
       >
         <img
           src={heroImage}
           alt={resolvedTexts.imageAlt}
-          className="w-full h-full object-cover object-[center_15%]"
+          className="w-full h-full object-cover object-center"
         />
       </motion.div>
 
@@ -135,6 +136,11 @@ export function HeroSection({
                 <p className="text-sm sm:text-base lg:text-lg text-[#5A6A5A]">
                   {resolvedTexts.marriageLine}
                 </p>
+                {resolvedTexts.verseReference ? (
+                  <p className="mt-1 text-xs sm:text-sm text-[#8B9A8B] italic">
+                    {resolvedTexts.verseReference}
+                  </p>
+                ) : null}
               </div>
 
               <div className="flex items-center justify-center gap-2 sm:gap-3 text-[#3A4A3A]">

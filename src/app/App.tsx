@@ -249,6 +249,7 @@ export default function App() {
           invitationLine: "Te invitan a ser parte de la celebración de su matrimonio",
           marriageLine:
             "Sostenidos por Su mirada eterna, consagrados a Su alabanza eterna.",
+          verseReference: "Dt. 11 - Sal 113",
           rootTitle: "Eres parte de los nuestros",
           rootSubtitle: "Gracias por estar aquí hoy.",
           phonePlaceholder: "🇨🇴 +57 Número de teléfono",

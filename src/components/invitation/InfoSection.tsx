@@ -107,7 +107,8 @@ function DressCodeCard({
           </div>
 
           <p className="text-sm leading-relaxed text-[#6A7462]">
-            Traje formal, No tenis. Se reserva el color gris y verde oliva.
+            Traje formal, No tenis. Se reserva el color azul oscuro y verde
+            oliva.
           </p>
         </div>
 
@@ -118,8 +119,8 @@ function DressCodeCard({
           </div>
 
           <p className="text-sm leading-relaxed text-[#6A7462]">
-            Vestido formal, No tenis. se reserva el color blanco, rojo y verde
-            oliva.
+            Vestido formal, No tenis. se reserva el color blanco, azul noche
+            y verde oliva.
           </p>
         </div>
       </div>

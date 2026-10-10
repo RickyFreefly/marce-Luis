@@ -53,7 +53,7 @@ const defaultTexts: EventsSectionTexts = {
       title: "Recepción",
       label: "Celebración",
       time: "5:00 PM",
-      description: "Cena • DJ • Banda en vivo. Una noche para no olvidar.",
+      description: "Cena. Una noche para no olvidar.",
       icon: PartyPopper,
     },
   ],

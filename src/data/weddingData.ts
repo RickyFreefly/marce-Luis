@@ -6,15 +6,16 @@ import galleryImage4 from "../assets/Marce&Luis4.png";
 import galleryImage5 from "../assets/Marce&Luis5.png";
 import galleryImage6 from "../assets/Marce&Luis6.png";
 import galleryImage7 from "../assets/Marce&Luis7.png";
-//import galleryImage8 from "../assets/Marce&Luis8.png";
+import galleryImage8 from "../assets/Marce&Luis8.jpeg";
 import galleryImage9 from "../assets/Marce&Luis9.png";
 
 export const weddingData = {
   couple: "Marce & Luis",
   dateText: "21 de noviembre de 2026",
   weddingDate: new Date("2026-11-21T15:00:00"),
-  quote: "El amor está compuesto por un alma que habita en dos cuerpos",
-  quoteAuthor: "Aristóteles",
+  quote:
+    "Entramos a la tierra que Dios preparó para nosotros, un hogar que Él cuida y bendice. ¡Sea el nombre del Señor alabado desde ahora y para siempre!",
+  quoteAuthor: "Deuteronomio 11:12 & Salmo 113:2",
   hashtag: "#MarceYLuis",
   heroImage,
   galleryImages: [
@@ -25,7 +26,7 @@ export const weddingData = {
     galleryImage5,
     galleryImage6,
     galleryImage7,
-    //galleryImage8,
+    galleryImage8,
     galleryImage9,
   ],
 };
