@@ -47,7 +47,7 @@ const defaultTexts: RsvpTexts = {
   sectionTitle: "Confirmación de asistencia",
   intro:
     "Nos haría muy feliz contar contigo en este día tan especial. Por favor confirma tu asistencia antes del",
-  deadlineText: "fecha por confirmar",
+  deadlineText: "20 de octubre",
   guestLabel: "Invitado",
   phoneLabel: "Teléfono",
   confirmationLabel: "Confirmación",
