@@ -19,7 +19,7 @@ export const guestList: GuestRecord[] = [
     phone: "3156614675",
     name: "Familia Amezquita Moreno: Alejandro Amezquita, Lilia Andrea Moreno e Ivan Javier",
   },
-  { phone: "3150000053", name: "Felipe Amezquita Moreno y Dayana Lovera" },
+  { phone: "3150500053", name: "Felipe Amezquita Moreno y Dayana Lovera" },
   {
     phone: "3135781838",
     name: "Familia Moreno Alvarado: Carlos Arturo Moreno, Olga Milena Alvarado, Agie Lizeth y Samu",
@@ -100,10 +100,11 @@ export const guestList: GuestRecord[] = [
   { phone: "3154678168", name: "Familia Cardenas Salazar" },
   { phone: "3208624118", name: "Familia Barragan Roncancio" },
   { phone: "3165429798", name: "Diego Barragan" },
-  { phone: "3017892755", name: "Futura Familia Checitos" },
+  { phone: "3017892755", name: "Futura Familia Chefcitos: Manu y Mary" },
   { phone: "3188169669", name: "Marisol Suarez" },
   { phone: "3186515030", name: "Diana Serpa" },
   { phone: "3015959830", name: "Thomas Rodríguez" },
   { phone: "3012216759", name: "Luisa Alcala" },
   { phone: "3012984516", name: "Angela Aristizabal" },
+   { phone: "3043792718", name: "Carlos Cañon y esposa" },
 ];
