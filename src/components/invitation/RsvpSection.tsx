@@ -55,8 +55,8 @@ const defaultTexts: RsvpTexts = {
   attendingSubtitle: "Confirmo mi asistencia",
   notAttendingTitle: "No podré acompañarlos",
   notAttendingSubtitle: "Enviaré mis mejores deseos",
-  messageTitle: "Mensaje",
-  optionalLabel: "Opcional",
+  messageTitle: "Deja un mensaje",
+  optionalLabel: "En nuestros corazones",
   messagePlaceholder: "Déjanos un mensaje si lo deseas...",
   validationAttendance:
     "Por favor selecciona una opción para confirmar tu asistencia.",
