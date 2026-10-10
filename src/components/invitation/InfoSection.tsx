@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import {
   Shirt,
   Lightbulb,
-  Camera,
   Sparkles,
   Clock,
   Car,
@@ -15,9 +14,7 @@ import { SectionTitle } from "../ui/SectionTitle";
 type InfoSectionTexts = {
   sectionTitle: string;
   dressCodeTitle: string;
-  dressCodeDescription: string;
   recommendationsTitle: string;
-  recommendationsDescription: string;
 };
 
 type InfoSectionProps = {
@@ -27,11 +24,7 @@ type InfoSectionProps = {
 const defaultTexts: InfoSectionTexts = {
   sectionTitle: "Información importante",
   dressCodeTitle: "Dress Code",
-  dressCodeDescription:
-    "Vestimenta formal elegante.\n\nSorpréndenos con tu mejor pinta y sé parte de la estética de este día.\n\nEllos: traje formal. No tenis, gris.\n\nEllas: vestido formal. No tenis, blanco, rojo ni verde oliva.\n\nLas fotos estarán a cargo de Andrés Torres, ganador en los Latin American Wedding Awards. Instagram: @andrestorresfotografo",
   recommendationsTitle: "Recomendaciones",
-  recommendationsDescription:
-    "La ceremonia inicia puntual a las 4:00 PM.\nHabrá parqueadero disponible.\nEn esta ocasión, los niños se quedan en casa.\nNo olvides confirmar tu asistencia.",
 };
 
 const cardShellClass =
@@ -129,29 +122,6 @@ function DressCodeCard({
             oliva.
           </p>
         </div>
-      </div>
-
-      <div className="mt-5 rounded-2xl border border-[#D8C7A3]/45 bg-[#F4EFE4]/70 p-4 text-center">
-        <div className="mb-2 flex items-center justify-center gap-2">
-          <Camera className="h-4 w-4 text-[#A58A5F]" />
-          <span className="text-xs font-medium uppercase tracking-[0.18em] text-[#A58A5F]">
-            Fotografía
-          </span>
-        </div>
-
-        <p className="text-sm leading-relaxed text-[#6A7462]">
-          Las fotos estarán a cargo de Andrés Torres, ganador en los Latin
-          American Wedding Awards.
-        </p>
-
-        <a
-          href="https://www.instagram.com/andrestorresfotografo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-2 inline-block text-sm font-medium text-[#7E866F] underline-offset-4 transition-colors hover:text-[#3A4A3A] hover:underline"
-        >
-          @andrestorresfotografo
-        </a>
       </div>
     </CardShell>
   );

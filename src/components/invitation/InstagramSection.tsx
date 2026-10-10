@@ -22,9 +22,8 @@ export function InstagramSection({
   texts,
   hashtag = "#MarceYLuis",
 }: InstagramSectionProps) {
-  // TODO: reemplazar con las cuentas reales de Instagram de Marce y Luis.
-  const marceLink = "https://www.instagram.com/";
-  const luisLink = "https://www.instagram.com/";
+  const marceLink = "https://www.instagram.com/judymoreno615";
+  const luisLink = "https://www.instagram.com/luis.gonar";
 
   const resolvedTexts = texts ?? defaultTexts;
 
@@ -56,7 +55,7 @@ export function InstagramSection({
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-full bg-[#8B9A8B] text-white hover:bg-[#3A4A3A] transition-all duration-300"
           >
-            @marce
+            @judymoreno615
           </a>
 
           <a
@@ -65,7 +64,7 @@ export function InstagramSection({
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-full bg-[#8B9A8B] text-white hover:bg-[#3A4A3A] transition-all duration-300"
           >
-            @luis
+            @luis.gonar
           </a>
         </div>
       </motion.div>
