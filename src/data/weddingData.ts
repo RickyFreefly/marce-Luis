@@ -8,6 +8,7 @@ import galleryImage6 from "../assets/Marce&Luis6.png";
 import galleryImage7 from "../assets/Marce&Luis7.png";
 import galleryImage8 from "../assets/Marce&Luis8.jpeg";
 import galleryImage9 from "../assets/Marce&Luis9.png";
+import galleryImage11 from "../assets/Marce&Luis11.png";
 
 export const weddingData = {
   couple: "Marce & Luis",
@@ -28,5 +29,6 @@ export const weddingData = {
     galleryImage7,
     galleryImage8,
     galleryImage9,
+    galleryImage11,
   ],
 };
