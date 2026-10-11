@@ -5,10 +5,10 @@ import heroImage from "../assets/main.png";
 import galleryImage4 from "../assets/Marce&Luis4.png";
 import galleryImage5 from "../assets/Marce&Luis5.png";
 import galleryImage6 from "../assets/Marce&Luis6.png";
-import galleryImage7 from "../assets/Marce&Luis7.png";
+import galleryImage7 from "../assets/Marce&Luis7.jpeg";
 import galleryImage8 from "../assets/Marce&Luis8.jpeg";
 import galleryImage9 from "../assets/Marce&Luis9.png";
-import galleryImage11 from "../assets/Marce&Luis11.png";
+import galleryImage11 from "../assets/Marce&Luis11.jpeg";
 
 export const weddingData = {
   couple: "Marce & Luis",
