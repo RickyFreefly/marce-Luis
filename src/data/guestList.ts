@@ -7,7 +7,7 @@ export const guestList: GuestRecord[] = [
   { phone: "3166166227", name: "Marcela Moreno" },
   { phone: "3236516197", name: "Aurora Ospina Hincapie" },
   {
-    phone: "3124424388",
+    phone: "3124455985",
     name: "José Anibal Moreno Anzola, Anderson Moreno y Lilibeth Moreno",
   },
   { phone: "3143141808", name: "Noemi Arce" },
@@ -52,7 +52,7 @@ export const guestList: GuestRecord[] = [
     phone: "3022718206",
     name: "Familia Gonzalez Villada: German Eduardo Gonzalez, Maribel Villada, Emily Isabel y David Daniel",
   },
-  { phone: "3057528402", name: "Fernando Gonzalez Arce y Valery Gonzalez" },
+  { phone: "3057528802", name: "Fernando Gonzalez Arce y Valery Gonzalez" },
   { phone: "3143691798", name: "Edwar Gonzalez Arce y Laura Hormaza" },
   { phone: "3135345950", name: "Nice Mendoza y Antonio Buitrago" },
   { phone: "3132867838", name: "Geraldine Rueda Restrepo" },
@@ -91,8 +91,8 @@ export const guestList: GuestRecord[] = [
   { phone: "3153683454", name: "Sergio Mesa y Blanca Prieto" },
   { phone: "3157622889", name: "Hernan Cortes" },
   { phone: "3138441010", name: "Rocío Rodríguez y Pareja" },
-  { phone: "3108017703", name: "Jhonatan Tellez" },
-  { phone: "3023343847", name: "Janeth Muñoz y Carlos Anzola" },
+  { phone: "3023343847", name: "Jhonatan Tellez" },
+  { phone: "3108017703", name: "Janeth Muñoz y Carlos Anzola" },
   {
     phone: "3112591950",
     name: "Familia Gonzalez Barragan: Ruben Gonzalez, Sandra Milena Barragan, Salome y Emmanuel",
