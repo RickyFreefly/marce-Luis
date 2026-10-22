@@ -55,7 +55,7 @@ export const guestList: GuestRecord[] = [
   { phone: "3057528802", name: "Fernando Gonzalez Arce y Valery Gonzalez" },
   { phone: "3143691798", name: "Edwar Gonzalez Arce y Laura Hormaza" },
   { phone: "3135345950", name: "Nice Mendoza y Antonio Buitrago" },
-  { phone: "3132867838", name: "Geraldine Rueda Restrepo" },
+  { phone: "3135867838", name: "Geraldine Rueda Restrepo" },
   { phone: "3117936454", name: "Febe Mendoza" },
   { phone: "3207802164", name: "Lidia Mendoza" },
   {
@@ -105,6 +105,6 @@ export const guestList: GuestRecord[] = [
   { phone: "3186515030", name: "Diana Serpa" },
   { phone: "3015959830", name: "Thomas Rodríguez" },
   { phone: "3012216759", name: "Luisa Alcala" },
-  { phone: "3012984516", name: "Angela Aristizabal" },
+  { phone: "3142984516", name: "Angela Aristizabal" },
    { phone: "3043792718", name: "Carlos Cañon y esposa" },
 ];
