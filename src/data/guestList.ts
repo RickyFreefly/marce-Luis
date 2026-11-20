@@ -108,6 +108,10 @@ export const guestList: GuestRecord[] = [
   { phone: "3142984516", name: "Angela Aristizabal" },
    { phone: "3043792718", name: "Carlos Cañon y esposa" },
   { phone: "311 2632058", name: "Nicolás Isaza Sierra" },
-  { phone: "320 2751932", name: "Vivian Rodriguez" }
+  { phone: "320 2751932", name: "Vivian Rodriguez" },
+    { phone: "301 4488196", name: " Andres Ramirez y Diana" }
+
+ 
+
 
 ];
